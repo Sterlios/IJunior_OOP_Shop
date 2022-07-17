@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pykE5/DG6M/3x1C9ZR/zf8le96HRWWl3B5GC27lRHR21KVw9IlYpokqTqBHP6Yc8qU/LI0i2CW62/vhiDSeYxw==",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\Projects\\IJunior\\6 OOP\\6.6 Shop_2\\6.6 Shop_2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kuzmi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
