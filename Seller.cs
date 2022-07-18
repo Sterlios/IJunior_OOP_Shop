@@ -31,7 +31,7 @@ namespace Shop
 
             if (int.TryParse(clientOptionText, out int clientOptionNumber))
             {
-
+                //TODO: Доделать обработку выбора пользователя и передачи товара
             }
 
             return true;
