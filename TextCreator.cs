@@ -29,8 +29,8 @@ namespace Shop
             string seperator = ") ";
             string numberText = _productNumber + seperator;
             string maxNumberText = ProductsCount + seperator;
-            string text = numberText.PadRight(maxNumberText.Length);
-            return text;
+            numberText = numberText.PadRight(maxNumberText.Length);
+            return numberText;
         }
 
         private string GetProductName()
