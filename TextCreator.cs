@@ -26,26 +26,17 @@ namespace Shop
 
         private string GetNumberText()
         {
-            string text = _productNumber + ") ";
-
-            for (int i = (int)Math.Log10(_productNumber); i < (int)Math.Log10(ProductsCount); i++)
-            {
-                text += " ";
-            }
-
+            string seperator = ") ";
+            string numberText = _productNumber + seperator;
+            string maxNumberText = ProductsCount + seperator;
+            string text = numberText.PadRight(maxNumberText.Length);
             return text;
         }
 
         private string GetProductName()
         {
             int nameFieldLength = 20;
-            string text = "";
-
-            for (int i = 0; i < nameFieldLength; i++)
-            {
-                text += i < Product.Name.Length ? Product.Name[i].ToString() : ".";
-            }
-
+            string text = Product.Name.PadRight(nameFieldLength, '.');
             return text;
         }
     }
